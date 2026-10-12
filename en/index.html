@@ -7,12 +7,15 @@
   <meta name="description" content="Patryk Dzieża's portfolio: web, mobile and desktop applications, API integrations and AI automation. Explore IBUF, Planova, MyHome and MyWardrobe." />
   <link rel="canonical" href="https://patrykdzieza.pl/en/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:image" content="https://patrykdzieza.pl/assets/ibuf-home.jpg" />
+  <meta property="og:image:alt" content="IBUF — a project by Patryk Dzieża" />
+  <meta name="twitter:image" content="https://patrykdzieza.pl/assets/ibuf-home.jpg" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Patryk Dzieża | Applications and AI Automation" />
   <meta property="og:description" content="Patryk Dzieża's portfolio: web, mobile and desktop applications, API integrations and AI automation. Explore IBUF, Planova, MyHome and MyWardrobe." />
   <meta property="og:url" content="https://patrykdzieza.pl/en/" />
   <meta property="og:locale" content="en_US" />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Patryk Dzieża | Applications and AI Automation" />
   <meta name="twitter:description" content="Patryk Dzieża's portfolio: web, mobile and desktop applications, API integrations and AI automation. Explore IBUF, Planova, MyHome and MyWardrobe." />
   <link rel="alternate" hreflang="pl" href="https://patrykdzieza.pl/" />
@@ -26,108 +29,90 @@
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header>
-    <div class="container">
-      <div class="top-bar">
-        <nav class="lang-switch" aria-label="Language selection">
+    <div class="container masthead">
+      <a class="wordmark" href="/en/" aria-label="Patryk Dzieża — home">PD<span>.</span></a>
+      <nav class="site-nav" aria-label="Page navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <nav class="lang-switch" aria-label="Language selection">
           <a href="/" lang="pl">PL</a>
           <a href="/en/" class="active" aria-current="page">EN</a>
         </nav>
-      </div>
-
-      <h1>Patryk Dzieża</h1>
-      <p>I build web, mobile and desktop applications and <span class="highlight">AI automation</span>. I combine user interfaces, API integrations and databases into tools that support everyday work and business processes.</p>
-
-      <div class="buttons">
-        <a href="https://github.com/programmer124521" class="btn" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="#projects" class="btn btn-outline">View projects</a>
-        <a href="#contact" class="btn btn-outline">Contact</a>
-      </div>
     </div>
-    <nav class="site-nav container" aria-label="Page navigation"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a>
-</nav>
+    <div class="container hero">
+      <div class="hero-copy">
+        <p class="eyebrow">APPLICATIONS / INTEGRATIONS / AI</p>
+        <h1>Patryk Dzieża<span class="highlight">.</span></h1>
+        <p class="hero-lead">From an idea to a tool<br>that makes work easier.</p>
+        <p class="hero-description">I build web, mobile and desktop applications. I connect interfaces, data and AI automation into practical solutions.</p>
+        <div class="buttons">
+          <a href="#projects" class="btn">Explore projects <span aria-hidden="true">↗</span></a>
+          <a href="mailto:kontakt@patrykdzieza.pl" class="btn btn-outline">Get in touch</a>
+        </div>
+        <p class="hero-note">React · TypeScript · API · AI</p>
+      </div>
+      <figure class="hero-feature">
+        <div class="feature-top"><span>FEATURED PROJECT</span><span class="status-dot">In development</span></div>
+        <div class="feature-stage"><img src="/assets/myhome-dashboard.webp" width="720" height="1600" alt="MyHome dashboard with tasks, renovation progress and home inspections" fetchpriority="high"></div>
+        <figcaption><div><strong>MyHome</strong><span>Home management in one place</span></div><a href="#projects" aria-label="Go to projects">↗</a></figcaption>
+      </figure>
+    </div>
   </header>
 
   <main id="main" class="container" tabindex="-1">
-
-    <section id="about">
-      <h2>About Me</h2>
-      <div class="card">
-<p>I develop products across interfaces, data and integrations. My projects include tools for managing projects, homes and digital wardrobes, alongside solutions supporting client workflows and e-commerce.</p><br>
-<p>I use React, TypeScript, mobile and desktop technologies, and API-based automation. I study Computer Science with an Artificial Intelligence specialization and focus on practical business applications of AI.</p>
-</div>
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-<p class="section-intro">Technologies used across my projects.</p>
-<div class="skill-group">
-<h3>Applications</h3>
-<div class="skills"><span class="skill">JavaScript / TypeScript</span><span class="skill">React</span><span class="skill">React Native / Expo</span><span class="skill">HTML / CSS</span><span class="skill">Tauri</span><span class="skill">Capacitor</span>
-</div>
-</div>
-<div class="skill-group">
-<h3>Data and infrastructure</h3>
-<div class="skills"><span class="skill">SQL / PostgreSQL</span><span class="skill">SQLite</span><span class="skill">Supabase</span><span class="skill">Cloudflare Workers</span><span class="skill">Node.js</span>
-</div>
-</div>
-<div class="skill-group">
-<h3>Automation and tools</h3>
-<div class="skills"><span class="skill">Make.com</span><span class="skill">OpenAI API</span><span class="skill">Python</span><span class="skill">API / JSON</span><span class="skill">Base.com</span><span class="skill">Git / GitHub</span><span class="skill">Vitest / Playwright</span><span class="skill">Raspberry Pi / Home Assistant</span>
-</div>
-</div>
-</section>
-
-    <section id="projects">
-<h2>Selected Projects</h2>
+<section id="projects">
+<p class="eyebrow">01 / PROJECTS</p><h2>Selected Projects</h2>
 <p class="section-intro">Applications and tools I work on. Each project is labelled with its current development status.</p>
 <div class="grid">
-<article class="card project-card"><span class="project-status">Public website · ongoing development</span>
+<article class="card project-card"><div class="project-visual ibuf"><img src="/assets/ibuf-home.jpg" width="1425" height="990" alt="IBUF homepage" loading="lazy"></div><div class="project-body"><p class="eyebrow">WEB / BUSINESS TOOLS</p><span class="project-status">Public website · ongoing development</span>
 <h3>IBUF</h3>
 <p>A technology studio website connected to tools for managing enquiries, clients and projects.</p>
-<ul>
+<details class="project-details"><summary>Project scope</summary><ul>
 <li>An administration panel supporting the workflow from enquiry to delivery and portfolio publication.</li>
 <li>Proposals, documents and an operations centre for monitoring services and automation.</li>
-</ul>
-<div><span class="tag">JavaScript</span><span class="tag">Cloudflare Workers</span><span class="tag">Supabase</span><span class="tag">PostgreSQL</span><span class="tag">API</span>
+</ul></details>
+<div><span class="tag">JavaScript</span><span class="tag">Cloudflare Workers</span><span class="tag">Supabase</span>
 </div>
 <p class="project-link"><a href="https://ibuf.pl/" target="_blank" rel="noopener noreferrer">Visit IBUF</a>
 </p>
-</article>
+</div></article>
 
-<article class="card project-card"><span class="project-status">Local MVP · Windows</span>
+<article class="card project-card"><div class="project-visual planova"><img src="/assets/planova-icon.png" width="256" height="256" alt="Planova app icon" loading="lazy"><span class="visual-name" aria-hidden="true">Planova</span></div><div class="project-body"><p class="eyebrow">DESKTOP / PRODUCTIVITY</p><span class="project-status">Local MVP · Windows</span>
 <h3>Planova</h3>
 <p>A desktop application for organising projects, stages and steps, with locally stored data.</p>
-<ul>
+<details class="project-details"><summary>Project scope</summary><ul>
 <li>A roadmap, calendar and dashboard with deadlines and automatically calculated progress.</li>
 <li>Windows notifications, data backup export and validated import.</li>
-</ul>
-<div><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Tauri</span><span class="tag">SQLite</span>
+</ul></details>
+<div><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Tauri</span>
 </div>
-</article>
+</div></article>
 
-<article class="card project-card"><span class="project-status">In development · web and Android</span>
+<article class="card project-card"><div class="project-visual myhome"><img src="/assets/myhome-dashboard.webp" width="720" height="1600" alt="MyHome dashboard" loading="lazy"></div><div class="project-body"><p class="eyebrow">WEB + ANDROID / HOME</p><span class="project-status">In development · web and Android</span>
 <h3>MyHome</h3>
 <p>A home management application for properties, rooms, renovations, expenses and documents.</p>
-<ul>
+<details class="project-details"><summary>Project scope</summary><ul>
 <li>Shared households, user roles and private files.</li>
 <li>An Android version in development, sharing the web application code.</li>
-</ul>
-<div><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Capacitor</span><span class="tag">Supabase</span><span class="tag">PostgreSQL</span>
+</ul></details>
+<div><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">Capacitor</span>
 </div>
-</article>
+</div></article>
 
-<article class="card project-card"><span class="project-status">In development · mobile application</span>
+<article class="card project-card"><div class="project-visual wardrobe"><img src="/assets/mywardrobe-icon.png" width="1254" height="1254" alt="MyWardrobe app icon" loading="lazy"><span class="visual-name" aria-hidden="true">MyWardrobe</span></div><div class="project-body"><p class="eyebrow">MOBILE / LIFESTYLE</p><span class="project-status">In development · mobile application</span>
 <h3>MyWardrobe</h3>
 <p>A digital wardrobe for organising clothes and creating outfits on a user avatar.</p>
-<ul>
+<details class="project-details"><summary>Project scope</summary><ul>
 <li>Outfit Studio with layered 2D clothing and saved outfits.</li>
 <li>Private photos, user accounts and data synchronisation.</li>
-</ul>
-<div><span class="tag">React Native</span><span class="tag">Expo</span><span class="tag">TypeScript</span><span class="tag">Supabase</span><span class="tag">Zustand</span>
+</ul></details>
+<div><span class="tag">React Native</span><span class="tag">Expo</span><span class="tag">TypeScript</span>
 </div>
-</article>
+</div></article>
 </div>
-<h3 style="margin: 32px 0 20px">E-commerce Automation</h3>
+<h3 class="subsection-title">E-commerce Automation</h3>
 <div class="grid">
 <div class="card">
           <h3>AI Product Description Automation</h3>
@@ -169,9 +154,45 @@
         </div>
 </div>
 </section>
-
-    <section id="education">
-      <h2>Education and Certificates</h2>
+<section id="about">
+      <p class="eyebrow">02 / APPROACH</p><h2>About Me</h2>
+      <div class="card">
+<p>I develop products across interfaces, data and integrations. My projects include tools for managing projects, homes and digital wardrobes, alongside solutions supporting client workflows and e-commerce.</p><br>
+<p>I use React, TypeScript, mobile and desktop technologies, and API-based automation. I study Computer Science with an Artificial Intelligence specialization and focus on practical business applications of AI.</p>
+</div>
+    <details class="interests"><summary>Areas of collaboration</summary>
+        <p>
+          I am looking for opportunities to develop professionally in:
+        </p>
+        <br>
+        <ul>
+<li>web, mobile and desktop application development,</li>
+<li>process automation and API integrations,</li>
+<li>practical applications of AI,</li>
+<li>business tools and e-commerce solutions.</li>
+</ul>
+      </details></section>
+<section id="skills">
+      <p class="eyebrow">03 / TOOLKIT</p><h2>Skills</h2>
+<p class="section-intro">Technologies used across my projects.</p>
+<div class="skills-grid"><div class="skill-group">
+<h3>Applications</h3>
+<div class="skills"><span class="skill">JavaScript / TypeScript</span><span class="skill">React</span><span class="skill">React Native / Expo</span><span class="skill">HTML / CSS</span><span class="skill">Tauri</span><span class="skill">Capacitor</span>
+</div>
+</div>
+<div class="skill-group">
+<h3>Data and infrastructure</h3>
+<div class="skills"><span class="skill">SQL / PostgreSQL</span><span class="skill">SQLite</span><span class="skill">Supabase</span><span class="skill">Cloudflare Workers</span><span class="skill">Node.js</span>
+</div>
+</div>
+<div class="skill-group">
+<h3>Automation and tools</h3>
+<div class="skills"><span class="skill">Make.com</span><span class="skill">OpenAI API</span><span class="skill">Python</span><span class="skill">API / JSON</span><span class="skill">Base.com</span><span class="skill">Git / GitHub</span><span class="skill">Vitest / Playwright</span><span class="skill">Raspberry Pi / Home Assistant</span>
+</div>
+</div>
+</div></section>
+<section id="education">
+      <p class="eyebrow">04 / LEARNING</p><h2>Education and Certificates</h2>
 
       <div class="card timeline-item">
         <strong>Computer Science — Artificial Intelligence specialization</strong>
@@ -221,52 +242,14 @@
         </details>
       </div>
     </section>
-
-    <section id="looking-for">
-      <h2>What I Am Looking For</h2>
-
-      <div class="card">
-        <p>
-          I am looking for opportunities to develop professionally in:
-        </p>
-        <br>
-        <ul>
-<li>web, mobile and desktop application development,</li>
-<li>process automation and API integrations,</li>
-<li>practical applications of AI,</li>
-<li>business tools and e-commerce solutions.</li>
-</ul>
-      </div>
+<section id="contact" class="contact-section">
+      <p class="eyebrow">05 / CONTACT</p>
+      <h2>Let’s talk<br>about your project.</h2>
+      <p class="section-intro">I am open to job opportunities and collaboration on applications, integrations and AI automation.</p>
+      <div class="buttons"><a class="btn" href="mailto:kontakt@patrykdzieza.pl">Get in touch <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="https://www.linkedin.com/in/patryk-dzieża-3ba39b397/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div>
+      <div class="contact-links"><a href="mailto:kontakt@patrykdzieza.pl">kontakt@patrykdzieza.pl</a><a href="https://github.com/programmer124521" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
     </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-
-      <div class="card">
-        <p>
-          I am open to job opportunities and collaboration on applications, integrations and AI automation.
-        </p>
-        <br>
-        <p>
-          <strong>GitHub:</strong>
-          <a href="https://github.com/programmer124521" target="_blank" rel="noopener noreferrer">
-            github.com/programmer124521
-          </a>
-        </p>
-        <p>
-          <strong>LinkedIn:</strong>
-          <a href="https://www.linkedin.com/in/patryk-dzieża-3ba39b397/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </p>
-        <p>
-          <strong>E-mail:</strong>
-          <a href="mailto:kontakt@patrykdzieza.pl">kontakt@patrykdzieza.pl</a>
-        </p>
-        <div class="contact-actions"><a class="btn" href="mailto:kontakt@patrykdzieza.pl">Get in touch</a>
-</div>
-      </div>
-    </section>
-
-  </main>
+</main>
 
   <footer>
     <p>© 2026 Patryk Dzieża | Portfolio</p>
